@@ -64,4 +64,8 @@ app.get('/todo/complete/:id' , async (req,res) =>{
 })
 const port = process.env.PORT || 3001;
 
+// app.get("/",(req,res)=> {
+//     res.json("server started")
+// })
+
 app.listen(port, ()=> console.log(`Server started on ${port}`));
